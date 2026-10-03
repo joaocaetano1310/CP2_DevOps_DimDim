@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://<NOME_DO_WEBAPP>.azurewebsites.net",
+  "operacoes": [
+    { "nome": "Listar clientes",       "metodo": "GET",    "url": "/clientes" },
+    { "nome": "Criar cliente",         "metodo": "POST",   "url": "/clientes",
+      "body": { "nome": "Maria Silva", "email": "maria@dimdim.com" } },
+    { "nome": "Buscar cliente",        "metodo": "GET",    "url": "/clientes/1" },
+    { "nome": "Atualizar cliente",     "metodo": "PUT",    "url": "/clientes/1",
+      "body": { "nome": "Maria Souza", "email": "maria@dimdim.com" } },
+    { "nome": "Criar transacao",       "metodo": "POST",   "url": "/transacoes",
+      "body": { "descricao": "Pagamento Pix", "valor": 150.75, "cliente": { "id": 1 } } },
+    { "nome": "Listar transacoes",     "metodo": "GET",    "url": "/transacoes" },
+    { "nome": "Transacoes do cliente", "metodo": "GET",    "url": "/clientes/1/transacoes" },
+    { "nome": "Atualizar transacao",   "metodo": "PUT",    "url": "/transacoes/1",
+      "body": { "descricao": "Pagamento Pix (corrigido)", "valor": 200.00, "cliente": { "id": 1 } } },
+    { "nome": "Apagar transacao",      "metodo": "DELETE", "url": "/transacoes/1" },
+    { "nome": "Apagar cliente",        "metodo": "DELETE", "url": "/clientes/1" }
+  ]
+}
