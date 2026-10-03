@@ -1,12 +1,13 @@
 # DimDim API — 2º Checkpoint de DevOps Tools & Cloud Computing
 
 **Grupo:** CloudOps
+
 **Integrantes:**
 
 | Nome | RM |
 |---|---|
 | Felipe Furlanetto (representante) | 562766 |
-| João _(completar o sobrenome)_ | 562074 |
+| João Victor Caetano | 562074 |
 | João Victor Bueno Castelini da Silva | 564115 |
 | Ryan Vetoriano | 565667 |
 | Raul Rezende Iemini Aguiar | 564002 |
